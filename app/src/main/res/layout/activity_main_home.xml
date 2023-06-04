@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background4"
+        android:alpha="0.5"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnAnnouncements"
+        android:layout_width="208dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="announcementsButton"
+        android:text="Announcements"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="183dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="132dp"
+        android:onClick="bookButton"
+        android:text="Book"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnManage"
+        android:layout_width="204dp"
+        android:layout_height="65dp"
+        android:onClick="manageButton"
+        android:text="Manage Bookings"
+        app:layout_constraintBottom_toTopOf="@+id/btnAnnouncements"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBook" />
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="232dp"
+        android:layout_height="92dp"
+        android:fontFamily="serif"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnBook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

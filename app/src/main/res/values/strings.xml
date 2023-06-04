@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BookingSystem</string>
+    <string name="select_time">Select a time:</string>
+    <string-array name="timeslots">
+        <item>9:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>3:00 PM</item>
+        <item>4:00 PM</item>
+        <item>5:00 PM</item>
+    </string-array>
+
+</resources>
