@@ -2,6 +2,10 @@ README
 
 -------------
 
+## Android Mobile Barbershop Booking Application
+
+
+
 Since this project was developed and run on a physical
 android device that had an outdated SDK, the build and 
 gradle files are configured to run on min SDK 21. If 
