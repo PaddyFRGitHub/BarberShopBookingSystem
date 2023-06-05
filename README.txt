@@ -2,7 +2,6 @@ README
 
 -------------
 
-## Android Mobile Barbershop Booking Application
 
 
 
